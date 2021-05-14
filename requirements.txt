@@ -6,3 +6,7 @@ numpy
 scikit-learn
 joblib
 pytesseract
+Werkzeug
+Jinja2
+Pillow
+imageio
