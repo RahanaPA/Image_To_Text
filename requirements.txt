@@ -10,3 +10,4 @@ Werkzeug
 Jinja2
 Pillow
 imageio
+urllib
