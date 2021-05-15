@@ -9,3 +9,4 @@ Werkzeug
 Jinja2
 Pillow
 imageio
+opencv-contrib-python-headlessv
