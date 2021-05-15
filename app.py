@@ -73,7 +73,7 @@ def upload_image():
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         #print('upload_image filename: ' + filename)
-        #flash('Image successfully uploaded and displayed below ↷')
+        flash('Image successfully uploaded and displayed below ↷')
 
         # call the OCR function on it
         extracted_text = ocr_core(file)
