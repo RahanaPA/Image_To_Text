@@ -29,7 +29,7 @@ def allowed_file(filename):
 @app.route('/')
 
 def home():
-    return render_template('index.html')
+    return render_template('index.html', landing_page = 'upload')
 
 
 # # route and function to handle the upload page
@@ -57,7 +57,7 @@ def home():
 #     elif request.method == 'GET':
 #         return render_template('upload.html')
 
-@app.route('/', methods=['POST'])
+@app.route('/upload', methods=['POST'])
 def upload_image():
     # check if there is a file in the request
     if 'file' not in request.files:
